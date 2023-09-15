@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* the <body> and <main> tags must be told that they are containers to flexible boxes */
+.navbar,
+.about-me {
+    display: flex;
+}
+
+.Home-image {
+    width: 38rem;
+    margin: 15px 10px 10px 0;
+}
+
+/* <body> contains a column of three boxes (<header>, <main> and <footer>) */
+.body-container {
+    flex-direction: column;
+}
+
+/* whereas <main> contains a row of 2 boxes (<article> and <aside>), */
+.main-container {
+    flex-direction: row;
+    flex: auto; /* To ensure the <main> tag keeps an automatic height and width */
+}
+
+/* To wrap up the layout, you want to be sure that your content (article) takes ⅔ of the width of the page, and your aside takes ⅓; you can assign to them the number of boxes they should fill in.  */
+article {
+   flex: 2;  /* (using up 2 boxes) */
+   overflow-y: auto; /* to be sure that the user can scroll within your <article> and your <aside> */
+}
+
+aside {
+    flex: 1; /* (using up 1 box) */
+    overflow-y: auto;
+}
