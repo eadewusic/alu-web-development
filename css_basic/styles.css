@@ -3,6 +3,46 @@
     padding: 0;
 }
 
+nav {
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    /* for the nav-links logo */
+    width: 4rem;
+    margin: 2px;
+}
+
+.nav-links {
+    flex: 1;
+}
+
+.nav-links ul li {
+    display: inline-block;
+}
+
+.nav-links ul li a {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    /*makes the red line underneath obvious*/
+    height: 2px;
+    background: #F80002;
+    display: block;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
 /* the <body> and <main> tags must be told that they are containers to flexible boxes */
 .navbar,
 .about-me {
@@ -29,6 +69,21 @@
 article {
    flex: 2;  /* (using up 2 boxes) */
    overflow-y: auto; /* to be sure that the user can scroll within your <article> and your <aside> */
+}
+
+.about-me {
+    margin: 10px 0px 15px; /* Top, Left, Bottom */
+}
+
+.tweets-btn {
+    display: inline-block;
+    padding: 15px 34px;
+    font-size: 13px;
+    cursor: pointer;
+	border-radius: 10px;
+    border: 1px solid #bbb;
+	background: #ddd;
+	color: black;
 }
 
 aside {
