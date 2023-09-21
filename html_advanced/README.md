@@ -1,11 +1,10 @@
 # HTML Advanced - Landing Page
 
-![Preview Image]
-https://github.com/eadewusic/alu-web-development/blob/main/html_advanced/Images/Page%20Review.jpg
+![Project Preview](Images/page-review.jpg)
 
 ## Description
 
-Briefly describe your project. Explain what your "HTML Advanced" landing page is all about and why it's relevant. Mention any specific features or functionalities that make it unique.
+For this "HTML Advanced" landing page project, I will focus on the HTML structure only - no CSS, no style - just pure HTML semantic.
 
 ## Table of Contents
 
@@ -20,10 +19,10 @@ Explain how to set up and run your project locally. Provide step-by-step instruc
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/html-advanced.git
+git clone https://github.com/eadewusic/alu-web-development.git
 
 # Change directory to the project folder
-cd html-advanced
+cd html_advanced
 
 # Install dependencies (if any)
 npm install
@@ -70,4 +69,78 @@ Provide contact information so that users and potential contributors can reach o
 
 ---
 
-Feel free to customize this README template to suit the specifics of your "HTML Advanced" landing page project. Clear and comprehensive documentation will help others understand and engage with your project more effectively.
+Of course! Here's a template for your "HTML Advanced" landing page project README with placeholders for you to fill in:
+
+```markdown
+# HTML Advanced Landing Page
+
+![Project Logo/Preview Image]
+
+## Description
+
+Replace this with a brief description of your project. Explain what your "HTML Advanced" landing page is all about and why it's relevant. Mention any specific features or functionalities that make it unique.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To set up and run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/html-advanced.git
+   ```
+
+2. Change directory to the project folder:
+   ```bash
+   cd html-advanced
+   ```
+
+3. Install dependencies (if any):
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To use the "HTML Advanced" landing page, follow these instructions:
+
+1. Include the HTML file in your project:
+   ```html
+   <link rel="stylesheet" href="css/style.css">
+   ```
+
+2. Customise the page according to your needs.
+
+## Contributing
+
+We welcome contributions to this project! If you'd like to contribute, please follow these guidelines:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix.
+
+3. Make your changes and commit them with descriptive messages.
+
+4. Submit a pull request to the `main` branch.
+
+## License
+
+This project will be licensed under the [MIT License](LICENSE). You can find the full text of the license in the [LICENSE](LICENSE) file later.
+
+## Acknowledgments
+
+I'm yet to use any third-party libraries, assets, or tools in this project. I will acknowledge them here and provide links to their repositories or websites if I do in future.
+
+## Contact
+
+If you have any questions, feedback, or collaboration requests, please feel free to reach out to us at [e.adewusi@alustudent.com](mailto:e.adewusi@alustudent.com).
+
+---
+
+```
