@@ -1,10 +1,10 @@
-# HTML Advanced - Landing Page
+# CSS Advanced - Landing Page
 
 ![Project Preview](Images/page-review.jpg)
 
 ## Description
 
-For this "HTML Advanced" landing page project, I will focus on the HTML structure only - no CSS, no style - just pure HTML semantic.
+For this "CSS Advanced" landing page project, we will style the HTML files in the HTML Advanced directory.
 
 ## Table of Contents
 
@@ -31,9 +31,9 @@ npm install
 
 ## Usage
 
-To use the "HTML Advanced" landing page, follow these instructions:
+To use the "CSS Advanced" landing page, follow these instructions:
 
-1. Include the HTML file in your project:
+1. Include the HTML file in your project/ rather copy the `index.html` file from `HTML, advanced`:
    ```html
    <link rel="stylesheet" href="./style.css">
    ```
