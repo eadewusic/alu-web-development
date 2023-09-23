@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Images/background.png);
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    background-size: contain;
+    position: relative;
+}
+
+.nav-bar img {
+    margin: 1rem 0rem 0 5rem;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    padding: 8px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
