@@ -36,3 +36,85 @@ body {
     color: #fff;
 }
 
+.header-text {
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+    margin: 7rem 0 -2rem 5.7rem;
+}
+
+.header-p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    word-spacing: 57px;
+    margin-left: 7rem;
+    margin-top: .3rem;
+}
+
+.first-btn {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 48%;
+    border: 1px solid #c271ff;
+    border-radius: 22px;
+    background: #C271FF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    width: 162px;
+    height: 44px;
+    cursor: pointer;
+    /* margin-right: 50%; */
+    margin-top: 3%;
+}
+
+.first-btn a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header2-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 9rem;
+    margin-left: 8.9rem;
+}
+span {
+    color: #c271ff;
+    font-weight: 600;
+}
+
+.pro-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 7%;
+    margin-top: 6.2rem;
+}
+
+.ps-name {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.ps-text {
+    width: 150px; /* worked like <br> tag */
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 24px;
+}
