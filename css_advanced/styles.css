@@ -87,6 +87,7 @@ body {
 span {
     color: #c271ff;
     font-weight: 600;
+    font-size: 28px;
 }
 
 .pro-section {
@@ -156,4 +157,74 @@ span {
 .title {
     font-style: italic;
     font-size: 16px;
+}
+
+/* Third section */
+
+.videos {
+    background-color: #FFFFFF;
+}
+
+.videos h1 {
+    color: #071629;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 200;
+    margin-top: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+.videos-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 7rem 70px 7rem;
+}
+
+.videos-div h2 {
+    color: #071629;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 1rem;
+    word-wrap: break-word;
+}
+
+.videos-div p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+
+.vp {
+    display: flex;
+    flex-direction: row;
+}
+.vp img {
+    margin: 15px 11px 15px 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.vp h3 {
+    margin-top: 15px;
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+.rating p {
+    margin: -4px 0 0 90px;
+    color: #C271FF;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
 }
