@@ -179,6 +179,11 @@ span {
     flex-direction: row;
     justify-content: space-between;
     padding: 30px 7rem 70px 7rem;
+    cursor: pointer;
+}
+
+#hover:hover {
+    box-shadow: 0 0 20px 0px rgba(194, 32, 172, 0.30);
 }
 
 .videos-div h2 {
