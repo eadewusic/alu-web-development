@@ -117,7 +117,7 @@ span {
     line-height: 24px;
 }
 
-/* Second section */
+/* ----- Second section = Testimonial ----- */
 
 .testimonial {
     display: flex;
@@ -159,7 +159,7 @@ span {
     font-size: 16px;
 }
 
-/* Third section */
+/* ----- Third section = Video Tutorials ----- */
 
 .videos {
     background-color: #FFFFFF;
@@ -227,4 +227,74 @@ span {
     font-weight: 600;
     line-height: 27px;
     word-wrap: break-word;
+}
+
+/* ----- Fourth section = Free membership ----- */
+
+.membership {
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    color: #ffffff;
+}
+
+.membership h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 200;
+    margin: 1rem 0;
+}
+
+.membership-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.membership-div img {
+    margin-bottom: 1rem;
+    width: 43.666px;
+    height: 35.353px;
+    flex-shrink: 0;
+}
+
+.membership-div h2 {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.membership-div p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.second-btn {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c271ff;
+    border-radius: 22px;
+    background: #C271FF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    width: 162px;
+    height: 44px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+.second-btn a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
 }
