@@ -2,13 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans 3', sans-serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     background-image: url(./Images/background.png);
     background-repeat: no-repeat;
 }
@@ -117,4 +114,46 @@ span {
     font-style: italic;
     font-weight: 200;
     line-height: 24px;
+}
+
+/* Second section */
+
+.testimonial {
+    display: flex;
+    background-color:#C271FF;
+    height: 400px;
+    margin-top: 6.5rem;
+}
+
+.testimonial div{
+    width: 943px;
+    height: 160px;
+    top: 1201px;
+}
+
+.testimonial img {
+    padding-top: 8.5rem;
+    padding-left: 18rem;
+}
+
+.quote {
+    color: #fff;
+    margin-top: 8rem;
+    padding-right: -6rem;
+    font-size: 16px;
+    font-weight: 200;
+    margin-right: 20rem;
+    width: 100px;
+    line-height: 33.6px;
+    margin-left: -2.5%;
+}
+
+.name {
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.title {
+    font-style: italic;
+    font-size: 16px;
 }
