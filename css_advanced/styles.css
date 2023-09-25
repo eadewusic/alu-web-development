@@ -353,3 +353,29 @@ span {
     float: right;
     padding-left: 5rem;
 }
+
+/* ----- Sixth section = Footer ----- */
+
+footer {
+    background-color: #071629;
+    padding: 5rem 185px 2.4rem 185px;
+    margin-top: 38rem;
+}
+
+.footer-logo {
+    width: 8rem;
+}
+
+.footer-sm {
+    float: right;
+    word-spacing: 1rem;
+}
+
+footer p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.3517;
+    margin-top: 3rem;
+}
