@@ -123,7 +123,7 @@ span {
     display: flex;
     background-color:#C271FF;
     height: 400px;
-    margin-top: 6.5rem;
+    margin-top: 5rem;
 }
 
 .testimonial div{
@@ -139,14 +139,12 @@ span {
 
 .quote {
     color: #fff;
-    margin-top: 8rem;
+    margin: 8rem 20rem 0 -2.5%;
     padding-right: -6rem;
     font-size: 16px;
     font-weight: 200;
-    margin-right: 20rem;
     width: 100px;
     line-height: 33.6px;
-    margin-left: -2.5%;
 }
 
 .name {
@@ -302,4 +300,56 @@ span {
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
+}
+
+/* ----- Fifth section = F.A.Q. ----- */
+
+.faq {
+    padding: 50px 100px;
+}
+
+.faq h1 {
+    color: #071629;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.faq-div {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 3%;
+}
+
+.faq-item h2 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.faq-item p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+
+#left {
+    display: flex;
+    float: left;
+} 
+
+#right {
+    display: flex;
+    float: right;
+    padding-left: 5rem;
 }
